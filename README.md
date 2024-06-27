@@ -1,4 +1,4 @@
-# Rock Paper Scissors Game
+# Rock Paper Scissors Game (Dec 2022)
 
 **Created in December 2022, Deployed Now**
 
