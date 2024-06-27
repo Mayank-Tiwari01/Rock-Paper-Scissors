@@ -1,0 +1,106 @@
+body{
+ background-color: rgb(29, 28, 28);
+}
+.game-buttons{
+  display: flex;
+  justify-content:center;
+  margin-top: 100px;
+}
+.intro-msg,
+.show-result-text{
+  display: flex;
+  justify-content:center;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+.rock-button,
+.paper-button,
+.scissor-button{
+  cursor:pointer;
+  width: 220px;
+  height: 220px;
+  border-radius: 110px;
+  margin-left: 30px;
+  border: 3px solid white;
+  border-inline-width: 6px;
+  background-color: transparent;
+  transition: border 0.22s;
+}
+.rock-img,
+.paper-img,
+.scissor-img{
+  width: 100px;
+  height: 100px;
+  transition: width 0.20s, height 0.20s;
+}
+
+.rock-button:hover,
+.paper-button:hover,
+.scissor-button:hover{
+  border: 3px solid rgb(72, 105, 188);
+  border-inline-width: 6px;
+  background-color: rgb(27, 26, 26);
+}
+
+.rock-button:active,
+.paper-button:active,
+.scissor-button:active{
+  border: 3px solid rgb(2, 89, 2);
+  border-inline-width: 8px;
+}
+
+.rock-img:hover,
+.paper-img:hover,
+.scissor-img:hover{
+  width: 120px;
+  height: 120px;
+}
+
+.show-result-img{
+  color: white;
+  display: flex;
+  justify-content:center;
+  margin-top: 50px;
+  font-size: 20px;
+}
+.player-move-img,
+.machine-move-img{
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 90px;
+}
+.extra-buttons{
+  display: flex;
+  justify-content: center;
+}
+
+.reset-button,
+.auto-play-button{
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: rgb(175, 180, 34);
+  width: 90px;
+  height: 50px;
+  margin: 20px 20px 20px 20px;
+  color: white;
+  border: solid white 2px;
+}
+.reset-button:hover,
+.auto-play-button:hover{
+  background-color: rgb(237, 218, 7);
+  border: solid rgb(72, 105, 188) 2px;
+}
+.reset-button:active,
+.auto-play-button:active{
+  background-color: rgb(9, 199, 117);
+  border: solid rgb(72, 105, 188) 2px;
+}
+.show-score{
+  color: white;
+  display: flex;
+  justify-content:center;
+  font-size: 25px;
+  margin-top: 10px;
+}
